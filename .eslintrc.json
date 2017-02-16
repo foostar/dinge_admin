@@ -24,12 +24,14 @@
     "comma-dangle": 0,
     "func-names": 0,
     "eqeqeq":0,
-    "no-unused-vars":0,
+    "no-unused-vars":2,
     "no-class-assign":0,
     "prefer-const": 0,
+    "no-underscore-dangle":0,
     "arrow-body-style": 0,
     "react/sort-comp": 0,
     "react/no-multi-comp": 0,
+    "class-methods-use-this": 0,
     "react/prop-types": 0,
     "react/prefer-es6-class": 0,
     "react/prefer-stateless-function": 0,
@@ -47,6 +49,7 @@
       "VariableDeclarator": 2,
       "SwitchCase": 1
     }],
+    "no-script-url":0,
     "react/jsx-indent-props": [2, 4],
     "react/jsx-boolean-value": [2, "always"],
     "computed-property-spacing": [2, "always"],
@@ -56,6 +59,8 @@
       "allowShortCircuit": true,
       "allowTernary": true
     }],
+    "no-restricted-syntax":0,
+    "jsx-a11y/href-no-hash":0,
     "no-confusing-arrow": [2, {"allowParens": true}]
   }
 }

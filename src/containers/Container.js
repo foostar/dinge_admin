@@ -1,16 +1,13 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { Link, browserHistory } from 'react-router'
 import { bindActionCreators } from 'redux'
 
 import * as loginActions from '../reducers/login'
 
 class Container extends React.Component {
     componentDidMount() {
-        console.log(this.props)
     }
     render() {
-        // <SiteNav light={ location.pathname === '/' } />
         return (
           <div id="application-container">
             {this.props.children}
@@ -21,7 +18,6 @@ class Container extends React.Component {
 
 const mapStateToProps = (state, props) => {
     return {
-        form: state.login,
         ...props
     }
 }
